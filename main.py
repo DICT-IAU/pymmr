@@ -1,9 +1,13 @@
 from fastapi import FastAPI
 from db import Virus, row2dict, result2dict
-from sqlalchemy import and_, or_
+from sqlalchemy import and_, or_, func
 from typing import List
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+#cors
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 def getUniqeValues(field_name, filter_):
     col = getattr(Virus, field_name)
@@ -36,15 +40,12 @@ def read_virus_by_criteria(virus_specimen: str, gene_symbol: List[str] = None, p
     and_filter = and_(in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
     
     result = Virus.query.filter(and_filter)
-    print(result)
     ret = result2dict(result.all())
-    print(ret)
     return ret
 
 @app.get("/viruses/search_criteria/{virus_specimen}")
 def read_search_criteria(virus_specimen: str, gene_symbol: str = None, protein: str = None, host: str = None, 
         country: str = None, collection_date: int = None):
-    print (gene_symbol, protein, host, country, collection_date)
 
     ftr = Virus.virus_specimen == virus_specimen
 
@@ -69,5 +70,42 @@ def read_search_criteria(virus_specimen: str, gene_symbol: str = None, protein: 
     ret["host"] = getUniqeValues("host", ftr)
     ret["country"] = getUniqeValues("country", ftr)
     ret["collection_date"] = getUniqeValues("collection_date", ftr)
+
+    return ret
+
+@app.post("/viruses/search_criteria/result_count/{virus_specimen}")
+def read_search_criteria_count(virus_specimen: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
+        country: List[str] = None, collection_date: List[str] = None):
+
+    in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
+    in_protein = True if protein is None else Virus.protein.in_(protein)
+    in_host = True if host is None else Virus.host.in_(host)
+    in_country = True if country is None else Virus.country.in_(country)
+    in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
+
+    and_filter = and_(Virus.virus_specimen == virus_specimen, in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+
+    ret = Virus.query.filter(and_filter).count()
+
+    return ret
+
+@app.post("/viruses/search_criteria/{virus_specimen}")
+def read_search_criteria_ex(virus_specimen: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
+        country: List[str] = None, collection_date: List[str] = None):
+
+    in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
+    in_protein = True if protein is None else Virus.protein.in_(protein)
+    in_host = True if host is None else Virus.host.in_(host)
+    in_country = True if country is None else Virus.country.in_(country)
+    in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
+
+    and_filter = and_(Virus.virus_specimen == virus_specimen, in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+
+    ret = {}
+    ret["gene_symbol"] = getUniqeValues("gene_symbol", and_filter)
+    ret["protein"] = getUniqeValues("protein", and_filter)
+    ret["host"] = getUniqeValues("host", and_filter)
+    ret["country"] = getUniqeValues("country", and_filter)
+    ret["collection_date"] = getUniqeValues("collection_date", and_filter)
 
     return ret
