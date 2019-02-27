@@ -13,7 +13,7 @@ def getUniqeValues(field_name, filter_):
     col = getattr(Virus, field_name)
     result = Virus.query.with_entities(col).filter(filter_).distinct().all()
     buff = [i[0] for i in result]
-    buff = list(sorted(buff, key=lambda x: (x is None, x)))
+    buff = list(sorted(buff, key=lambda x: (x is None or x == "N/A", x)))
     return buff
 
 @app.get("/")
@@ -37,7 +37,7 @@ def read_virus_by_criteria(virus_specimen: str, gene_symbol: List[str] = None, p
     in_country = True if country is None else Virus.country.in_(country)
     in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
 
-    and_filter = and_(in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+    and_filter = and_(Virus.virus_specimen == virus_specimen, in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
     
     result = Virus.query.filter(and_filter)
     ret = result2dict(result.all())
@@ -76,6 +76,7 @@ def read_search_criteria(virus_specimen: str, gene_symbol: str = None, protein: 
 @app.post("/viruses/search_criteria/result_count/{virus_specimen}")
 def read_search_criteria_count(virus_specimen: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
         country: List[str] = None, collection_date: List[str] = None):
+    
 
     in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
     in_protein = True if protein is None else Virus.protein.in_(protein)
@@ -85,7 +86,8 @@ def read_search_criteria_count(virus_specimen: str, gene_symbol: List[str] = Non
 
     and_filter = and_(Virus.virus_specimen == virus_specimen, in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
 
-    ret = Virus.query.filter(and_filter).count()
+    result = Virus.query.filter(and_filter)
+    ret = result.count()
 
     return ret
 
