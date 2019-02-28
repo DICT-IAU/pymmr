@@ -7,7 +7,7 @@ database_username = 'root'
 database_password = 'root'
 database_ip       = 'localhost'
 database_name     = 'mmr'
-database_connection = sqlalchemy.create_engine('mysql://{0}:{1}@{2}/{3}'.
+database_connection = sqlalchemy.create_engine('mysql+pymysql://{0}:{1}@{2}/{3}'.
                                                format(database_username, database_password, 
                                                       database_ip, database_name))
 
