@@ -37,7 +37,7 @@ def algo_msa(msa_type: str, seq_id: List[int]):
     msa_command = None
 
     if msa_type == "muscle":
-        msa_command = MuscleCommandline("muscle", input=fasta_file, html=True)
+        msa_command = MuscleCommandline("muscle", input=fasta_file, html=True, quiet=True)
     else: # if msa_type == "clustalo":
         msa_command = ClustalOmegaCommandline(infile=fasta_file)
 
