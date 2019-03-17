@@ -13,7 +13,7 @@ engine = create_engine('mysql+pymysql://{0}:{1}@{2}/{3}'.
                      format(database_username, database_password, 
                      database_ip, database_name), pool_pre_ping=True, pool_size=50, max_overflow=100)
 
-db_session = scoped_session(sessionmaker(autocommit=False,
+db_session = scoped_session(sessionmaker(autocommit=True,
                                          autoflush=False,
                                          bind=engine))
 # reflect the tables
