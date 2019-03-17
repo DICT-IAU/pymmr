@@ -20,6 +20,13 @@ def getUniqeValues(field_name, filter_):
     buff = list(sorted(buff, key=lambda x: (x is None or x == "N/A", x)))
     return buff
 
+def getUniqeValues2(field_name1, field_name2, filter_):
+    col1 = getattr(Virus, field_name1)
+    col2 = getattr(Virus, field_name2)
+    result = Virus.query.with_entities(col1,col2).filter(filter_).distinct().all()
+
+    return result
+
 @app.get("/")
 def read_root():
     return row2dict(Virus.query.first())
@@ -47,16 +54,13 @@ def algo_msa(msa_type: str, seq_id: List[int]):
     return ret 
 
 @app.post("/map/by_criteria/{virus_specimen}")
-def read_map_criteria(virus_specimen: str, gene_symbol: str = None, protein: str = None, host: str = None, 
+def read_map_criteria(virus_specimen: str, gene_symbol: str = None, host: str = None, 
         country: str = None, collection_date: int = None):
 
     ftr = Virus.virus_specimen == virus_specimen
 
     if gene_symbol != None:
         ftr = and_(ftr, Virus.gene_symbol == gene_symbol)
-    
-    if protein != None:
-        ftr = and_(ftr, Virus.protein == protein)
     
     if host != None:
         ftr = and_(ftr, Virus.host == host)
@@ -83,64 +87,32 @@ def read_virus(accession_number: str):
 
 
 @app.post("/viruses/search/by_criteria/{sequence_type}/{virus_specimen}")
-def read_virus_by_criteria(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
+def read_virus_by_criteria(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, host: List[str] = None, 
         country: List[str] = None, collection_date: List[str] = None):
     
     in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
-    in_protein = True if protein is None else Virus.protein.in_(protein)
     in_host = True if host is None else Virus.host.in_(host)
     in_country = True if country is None else Virus.country.in_(country)
     in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
 
     and_filter = and_(Virus.sequence_type == sequence_type, Virus.virus_specimen == virus_specimen, 
-        in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+        in_gene_symbol, in_host, in_country, in_collection_date)
     
     result = Virus.query.filter(and_filter)
     ret = result2dict(result.all())
     return ret
 
-@app.get("/viruses/search_criteria/{sequence_type}/{virus_specimen}")
-def read_search_criteria(virus_specimen: str, sequence_type: str, gene_symbol: str = None, protein: str = None, host: str = None, 
-        country: str = None, collection_date: int = None):
-
-    ftr = and_(Virus.sequence_type == sequence_type, Virus.virus_specimen == virus_specimen)
-
-    if gene_symbol != None:
-        ftr = and_(ftr, Virus.gene_symbol == gene_symbol)
-    
-    if protein != None:
-        ftr = and_(ftr, Virus.protein == protein)
-    
-    if host != None:
-        ftr = and_(ftr, Virus.host == host)
-
-    if country != None:
-        ftr = and_(ftr, Virus.country == country)
-    
-    if collection_date != None:
-        ftr = and_(ftr, Virus.collection_date == collection_date)
-
-    ret = {}
-    ret["gene_symbol"] = getUniqeValues("gene_symbol", ftr)
-    ret["protein"] = getUniqeValues("protein", ftr)
-    ret["host"] = getUniqeValues("host", ftr)
-    ret["country"] = getUniqeValues("country", ftr)
-    ret["collection_date"] = getUniqeValues("collection_date", ftr)
-
-    return ret
-
 @app.post("/viruses/search_criteria/result_count/{sequence_type}/{virus_specimen}")
-def read_search_criteria_count(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
+def read_search_criteria_count(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, host: List[str] = None, 
         country: List[str] = None, collection_date: List[str] = None):
     
 
     in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
-    in_protein = True if protein is None else Virus.protein.in_(protein)
     in_host = True if host is None else Virus.host.in_(host)
     in_country = True if country is None else Virus.country.in_(country)
     in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
 
-    and_filter = and_(Virus.sequence_type == sequence_type, Virus.virus_specimen == virus_specimen, in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+    and_filter = and_(Virus.sequence_type == sequence_type, Virus.virus_specimen == virus_specimen, in_gene_symbol, in_host, in_country, in_collection_date)
 
     result = Virus.query.filter(and_filter)
     ret = result.count()
@@ -148,21 +120,21 @@ def read_search_criteria_count(virus_specimen: str, sequence_type: str, gene_sym
     return ret
 
 @app.post("/viruses/search_criteria/{sequence_type}/{virus_specimen}")
-def read_search_criteria_ex(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, protein: List[str] = None, host: List[str] = None, 
+def read_search_criteria_ex(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, host: List[str] = None, 
         country: List[str] = None, collection_date: List[str] = None):
 
     in_gene_symbol = True if gene_symbol is None else Virus.gene_symbol.in_(gene_symbol)
-    in_protein = True if protein is None else Virus.protein.in_(protein)
     in_host = True if host is None else Virus.host.in_(host)
     in_country = True if country is None else Virus.country.in_(country)
     in_collection_date = True if collection_date is None else Virus.collection_date.in_(collection_date)
 
     and_filter = and_(Virus.sequence_type == sequence_type, Virus.virus_specimen == virus_specimen, 
-        in_gene_symbol, in_protein, in_host, in_country, in_collection_date)
+        in_gene_symbol, in_host, in_country, in_collection_date)
 
     ret = {}
+    ret["genes"] = getUniqeValues2("gene_symbol", "gene_product_name", and_filter)
     ret["gene_symbol"] = getUniqeValues("gene_symbol", and_filter)
-    ret["protein"] = getUniqeValues("protein", and_filter)
+    ret["gene_product_name"] = getUniqeValues("gene_product_name", and_filter)
     ret["host"] = getUniqeValues("host", and_filter)
     ret["country"] = getUniqeValues("country", and_filter)
     ret["collection_date"] = getUniqeValues("collection_date", and_filter)
