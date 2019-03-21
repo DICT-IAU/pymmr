@@ -7,11 +7,15 @@ from collections import defaultdict
 from Bio.Align.Applications import MuscleCommandline, ClustalOmegaCommandline
 import uuid
 import os
+import subprocess
 
 app = FastAPI()
 
 #cors
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+
+def runCommand(command):
+    return subprocess.run(command, stdout=subprocess.PIPE).stdout.decode('utf-8')
 
 def getUniqeValues(field_name, filter_):
     col = getattr(Virus, field_name)
@@ -32,7 +36,7 @@ def read_root():
     return row2dict(Virus.query.first())
 
 @app.post("/algo/msa/{msa_type}")
-def algo_msa(msa_type: str, seq_id: List[int]):
+def algo_msa(msa_type: str, seq_id: List[int], consensus: bool = None):
     if len(seq_id) > 10:
         return "Cannot process more than 10 sequences for MSA. Operation aborted."
 
@@ -45,10 +49,21 @@ def algo_msa(msa_type: str, seq_id: List[int]):
 
     if msa_type == "muscle":
         msa_command = MuscleCommandline("muscle", input=fasta_file, html=True, quiet=True)
-    else: # if msa_type == "clustalo":
+        ret = msa_command()
+    elif msa_type == "clustalo":
         msa_command = ClustalOmegaCommandline(infile=fasta_file)
+        ret = msa_command()
+    else: # if msa_type == "mview":
+        clustal_file = "tmp/%s" % str(uuid.uuid4())
+        msa_command = ClustalOmegaCommandline(infile=fasta_file, outfile=clustal_file)
+        msa_command()
 
-    ret = msa_command()
+        con = "on" if consensus else "off"
+        ret = runCommand(["mview", "--css", "on", "--pcid", "aligned", "--ruler", "on", "--width", "80", 
+            "-coloring", "mismatch", "-colormap", "pink", "-consensus", con, "-con_threshold", "100", 
+            "-html", "head", "-in", "fasta", clustal_file])
+        os.remove(clustal_file)
+
     os.remove(fasta_file)
 
     return ret 
