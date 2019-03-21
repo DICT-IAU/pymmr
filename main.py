@@ -40,11 +40,17 @@ def algo_msa(msa_type: str, seq_id: List[int], consensus: bool = None):
     if len(seq_id) > 10:
         return "Cannot process more than 10 sequences for MSA. Operation aborted."
 
-    result = Virus.query.with_entities("fasta").filter(Virus.id.in_(seq_id))
+    result = Virus.query.with_entities("id", "fasta").filter(Virus.id.in_(seq_id))
+    result_dict = {}
+
+    for r in result:
+        result_dict[r[0]] = r[1]
+    
     fasta_file = "tmp/%s" % str(uuid.uuid4())
     with open(fasta_file, "w") as fasta:
-        for i in result:
-            fasta.write(i[0] + "\n\n")
+        # Ensure ordering of sequences based on input
+        for i in seq_id:
+            fasta.write(result_dict[i]+ "\n\n")
     msa_command = None
 
     if msa_type == "muscle":
