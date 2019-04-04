@@ -1,0 +1,439 @@
+Epitope ID,Object Type,Description,Starting Position,Ending Position,Antigen Name,Antigen Accession,Parent Protein
+86,Linear peptide,AADHCPVVEVNGVTI,416,430,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+281,Linear peptide,AALGVATAAQITAGI,121,135,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+1118,Linear peptide,AEPLLSC,492,498,Nucleoprotein,P04851.1,Nucleoprotein
+1848,Linear peptide,AIAKLEDAKELLESS,466,480,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+1878,Linear peptide,AIDNLRASLETTNQA,146,160,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+2322,Linear peptide,AKWAVPTTRTDDKLR,363,377,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+2383,Linear peptide,ALAEVLKKPV,405,414,phosphoprotein,ABO69699.1,Phosphoprotein
+2598,Linear peptide,ALGVINTLEWIPRFK,463,477,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+2610,Linear peptide,ALHQSMLNSQAIDNL,136,150,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+2626,Linear peptide,ALIGILSLFV,72,81,nucleoprotein,ABI54110.1,Nucleoprotein
+3236,Linear peptide,ANCASILCKCYTTGT,388,402,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+4192,Linear peptide,ARLVSEIAMHTTEDK,391,405,Nucleoprotein,P04851.1,Nucleoprotein
+4374,Linear peptide,ASDVETAEGGEIHELLR,179,195,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+4375,Linear peptide,ASDVETAEGGEIHELLRLQ,179,197,phosphoprotein,ABO69699.1,Phosphoprotein
+4376,Linear peptide,ASDVETAEGGEIHELLRLQSR,179,199,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+4377,Linear peptide,ASDVETAEGGEIHKLLRLQ,179,197,P protein,AAA63285.1,Phosphoprotein
+4385,Linear peptide,ASELGITAEDARLVS,381,395,Nucleoprotein,P04851.1,Nucleoprotein
+4482,Linear peptide,ASILCKCYTTGTIIN,391,405,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+4849,Linear peptide,ASYKVMTRSSHQSLV,41,55,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+4866,Linear peptide,ATAAQITAGIALHQS,126,140,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+5286,Linear peptide,AVCLGGLIGIPALIC,501,515,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+5353,Linear peptide,AVGPRQAQVSF,409,419,Nucleoprotein,P04851.1,Nucleoprotein
+5556,Linear peptide,AVTAPDTAADSELRRWIKYT,181,200,Nucleoprotein,P04851.1,Nucleoprotein
+6073,Linear peptide,CCRGRCNKKGEQVGM,516,530,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+6250,Linear peptide,CFQQACKGKIQALCE,381,395,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+6251,Linear peptide,CFQQACKGKIQALCENPEWAPLKDNRIPS,381,409,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+6479,Linear peptide,CKGKIQALCENPEWA,386,400,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+6702,Linear peptide,CNKKGEQVGMSRPGL,521,535,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+7005,Linear peptide,CSGPTTIRGQFS,188,199,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+7279,Linear peptide,CVLADSESGGHITHS,583,597,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+7443,Linear peptide,CYTTGTIINQDPDKILTYIAADHC,397,420,fusion protein,AAF02706.1,Fusion glycoprotein F0
+7704,Linear peptide,DCHAPTYLPAEVDGD,493,507,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+7812,Linear peptide,DDKLRMETCFQQACK,373,387,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+8195,Linear peptide,DEVGLRTPQRFTDLV,101,115,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+8530,Linear peptide,DHCPVVEVNGVTIQV,418,432,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+8731,Linear peptide,DINKVLEKLGYSGGD,241,255,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+9126,Linear peptide,DLIGQKLGLKLLRYY,196,210,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+9280,Linear peptide,DLSLRRFMV,226,234,Nucleoprotein,P04851.1,Nucleoprotein
+9281,Linear peptide,DLSNCMVALGELKLA,283,297,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+9319,Linear peptide,DLVKFISDKIKFLNP,113,127,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+9343,Linear peptide,DLYKSNHNNV,442,451,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+9614,Linear peptide,DPDKILTYIAA,407,417,fusion protein,AAF02706.1,Fusion glycoprotein F0
+9804,Linear peptide,DPVIDRLYLSSHRGV,343,357,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+9853,Linear peptide,DQILRSMKGLSSTSI,481,495,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+9929,Linear peptide,DQYCADVAAEELMNA,151,165,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+10109,Linear peptide,DSESGGHITH,587,596,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+11286,Linear peptide,EDAKELLESSDQILR,471,485,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+11441,Linear peptide,EDSITIPYQGSGKGV,303,317,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+12165,Linear peptide,EGFNMILGTILAQIWVLLAK,161,180,Nucleoprotein,P04851.1,Nucleoprotein
+12574,Linear peptide,EISDIEVQDPEGFNMILGTI,151,170,Nucleoprotein,P04851.1,Nucleoprotein
+12843,Linear peptide,EKPNLSSKRSE,235,245,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+13126,Linear peptide,ELKLAALCHGEDSIT,293,307,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+13216,Linear peptide,ELPRL,428,432,Nucleoprotein,P04851.1,Nucleoprotein
+13535,Linear peptide,ENPEWAPLKDNRIPSYGVLSVDL,395,417,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+13670,Linear peptide,EPIRDALNAMTQNIR,85,99,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+14232,Linear peptide,ESPGQLIQRITDDPDVS,82,98,Nucleoprotein,P04851.1,Nucleoprotein
+14253,Linear peptide,ESRGIKARITHVDTE,261,275,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+14263,Linear peptide,ESSCTFMPEGTVCSQ,331,345,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+14536,Linear peptide,ETRTTNQFLAVSKGN,173,187,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+14641,Linear peptide,EVDGDVKLSSNLVIL,503,517,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+14833,Linear peptide,EVNGVTIQV,427,435,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+16191,Linear peptide,FIFDALAEV,1690,1698,L protein,ABK40531.1,RNA-directed RNA polymerase L
+16290,Linear peptide,FISDKIKFL,117,125,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+16766,Linear peptide,FLMDRHIIV,1048,1056,L protein,ABK40531.1,RNA-directed RNA polymerase L
+17018,Linear peptide,FMAVLLTLQTPTGQI,11,25,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+17068,Linear peptide,FMPEGTVCSQNALYP,336,350,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+17117,Linear peptide,FMYMSLLGV,50,58,matrix protein,AAN09804.1,Matrix protein
+17243,Linear peptide,FNVPIKEAGEDCHAP,483,497,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+17572,Linear peptide,FRDLTWCINPPERIK,133,147,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+19005,Linear peptide,GDINKVLEKLGYS,243,255,fusion protein,BAB60865.1,Fusion glycoprotein F0
+19006,Linear peptide,GDINKVLEKLGYSGGDLLG,240,258,fusion protein,AAL29688.1,Fusion glycoprotein F0
+19609,Linear peptide,GFRASDVETAEGGEIHELLRLQ,176,197,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+20329,Linear peptide,GILESRGIKARITHVDTESY,258,277,Fusion glycoprotein F0 precursor,P26032.1,Fusion glycoprotein F0
+20916,Linear peptide,GLIGIPALICCCRGR,506,520,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+21277,Linear peptide,GMGVSCTVTREDGTNRR,601,617,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+21365,Linear peptide,GMYGGTYLVEKP,226,237,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+21508,Linear peptide,GNRFILSQGNLIANC,376,390,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+21766,Linear peptide,GPRQAQVSF,411,419,Nucleoprotein,P10050.1,Nucleoprotein
+22063,Linear peptide,GRGYNVSSIVTMTSQ,211,225,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+22542,Linear peptide,GSTKSCARTLVSGSF,361,375,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+22708,Linear peptide,GTIINQDPDKILTYI,401,415,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+22783,Linear peptide,GTPLDIDTASESS,470,482,Nucleoprotein,P04851.1,Nucleoprotein
+23048,Linear peptide,GVLSVDLSLTVELKI,411,425,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+23096,Linear peptide,GVPIELQVECFTWDQ,561,575,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+23134,Linear peptide,GVSCTVTREDGTNRR,603,617,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+23162,Linear peptide,GVSYNIGSQEWYTTV,301,315,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+23422,Linear peptide,GYNVSSIVTMTSQGM,213,227,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+24104,Linear peptide,HITHSGMEGMGVSCT,593,607,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+24256,Linear peptide,HLMIDRPYV,29,37,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+24275,Linear peptide,HLPTGTPLDIDTATESSQDPQDSR,466,489,Nucleoprotein (Nucleocapsid protein) (Protein N) (NP),Q77M43.1,Nucleoprotein
+24352,Linear peptide,HMTNYLEQPVSNDLS,271,285,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+24640,Linear peptide,HQSLVIKLMPNITLL,51,65,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+25030,Linear peptide,HVDTESYFIVLSIAY,271,285,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+25127,Linear peptide,HWGNLSKIGVVGIGS,26,40,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+25606,Linear peptide,IDLGPPISLERLDVG,446,460,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+25725,Linear peptide,IEAIRQAGQEMILAV,161,175,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+26323,Linear peptide,IGSQEWYTTVPKYVA,306,320,Fusion glycoprotein F0,P69355.1,Fusion glycoprotein F0
+26801,Linear peptide,IKGVIVHRLEGVSYN,291,305,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+26804,Linear peptide,IKHIIIVPIPGDSSITTRSR,31,50,Nucleoprotein,P04851.1,Nucleoprotein
+26840,Linear peptide,IKLMPNITLLNNCTR,56,70,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+27153,Linear peptide,ILLERLDVGT,455,464,fusion protein,AAF85664.1,Fusion glycoprotein F0
+27245,Linear peptide,ILPGQDLQYV,516,525,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+27391,Linear peptide,ILTYIAADHCPVVEV,411,425,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+27725,Linear peptide,INQDPDKILTY,404,414,fusion protein,AAL29688.1,Fusion glycoprotein F0
+28041,Linear peptide,IPRFKVSPYLFNVPI,473,487,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+28134,Linear peptide,IQALSYALGGDINKV,231,245,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+28624,Linear peptide,ISNFDESSCTFMPEG,326,340,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+28809,Linear peptide,ITAGIALHQSMLNSQ,131,145,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+29246,Linear peptide,IVEAGLASFILTIKFGIETMYPALG,261,285,Nucleoprotein,P04851.1,Nucleoprotein
+29928,Linear peptide,KARITHVDTESYFIV,266,280,Fusion glycoprotein F0,P69355.1,Fusion glycoprotein F0
+30102,Linear peptide,KCYTTGTIINQDPDK,396,410,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+30219,Linear peptide,KDNPHPKGSR,13,22,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+30220,Linear peptide,KDNRIPSYGVLSVDL,403,417,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+30774,Linear peptide,KFLNPDREYDFRDLT,123,137,haemagglutinin protein,AAC35876.2,Hemagglutinin glycoprotein
+31018,Linear peptide,KGNCSGPTTIR,185,195,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+31886,Linear peptide,KLGLKLLRYYTEILS,201,215,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+31894,Linear peptide,KLGVWKSPTDMQSWV,323,337,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+32002,Linear peptide,KLLRYYTEI,208,216,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+32026,Linear peptide,KLMPFSGDFV,1917,1926,L protein,ABK40531.1,RNA-directed RNA polymerase L
+32029,Linear peptide,KLMPNITLL,60,68,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+32135,Linear peptide,KLRMETCFQQACKGKIQALCENPEWA,375,400,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+32241,Linear peptide,KLWCRHFCV,576,584,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+32242,Linear peptide,KLWCRHFCVL,576,585,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+32243,Linear peptide,KLWESPQEI,84,92,C protein,BAB60863.1,Protein C
+32397,Linear peptide,KMSSAVGFV,445,453,phosphoprotein,ABO69699.1,Phosphoprotein
+32398,Linear peptide,KMSSAVGFVPDTGPASR,445,461,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+32677,Linear peptide,KPDLTGTSKSYVRSL,536,550,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+32807,Linear peptide,KPNLSSKRSELSQLS,236,250,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+32808,Linear peptide,KPNLSSKRSELSQLSMYRVF,236,255,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+33128,Linear peptide,KRFAGVVLAGAALGV,111,125,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+33460,Linear peptide,KSNHNNVYWLTIPPMKNLALGVINTL,445,470,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+34206,Linear peptide,KVSPYLFNV,477,485,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+34931,Linear peptide,LAQIWVLLAKAVTAPDTAAD,171,190,Nucleoprotein,P04851.1,Nucleoprotein
+35050,Linear peptide,LCENPEWAPLKDNRI,393,407,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+35283,Linear peptide,LDRLVRLIG,52,60,nucleoprotein,ABI54110.1,Nucleoprotein
+35553,Linear peptide,LEKLGYSGGDLLGIL,246,260,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+35662,Linear peptide,LEQPVSNDLS,276,285,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+35842,Linear peptide,LFGPSLRDPISAEIS,216,230,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+36463,Linear peptide,LIANCASILCKCYTT,386,400,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+36538,Linear peptide,LIGLLAIAGIRLHRAAIYTAEIHK,49,72,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+36664,Linear peptide,LIPSMNQLSCDLIGQ,186,200,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+36890,Linear peptide,LKIKIASGFGPLITH,423,437,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+36891,Linear peptide,LKIKIASGFGPLITHGSGMDLYK,423,445,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+37111,Linear peptide,LLAVLFVMFL,38,47,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+37177,Linear peptide,LLDRLVRLIGNPDVS,51,65,Nucleoprotein,P04851.1,Nucleoprotein
+37178,Linear peptide,LLDRLVRLIGNPDVSGPKLT,51,70,Nucleoprotein,P04851.1,Nucleoprotein
+37232,Linear peptide,LLEVVQSDQSQSGLTFASR,101,119,Nucleoprotein,P04851.1,Nucleoprotein
+37233,Linear peptide,LLEVVQSDQSQSGLTFASRG,101,120,Nucleoprotein,P04851.1,Nucleoprotein
+37335,Linear peptide,LLGILESRGIKARIT,256,270,fusion protein,AAL29688.1,Fusion glycoprotein F0
+37763,Linear peptide,LLRYYTEILSLFGPS,206,220,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+37953,Linear peptide,LLWRSRCKIV,294,303,M protein,ABK40528.1,Matrix protein
+37955,Linear peptide,LLWSYAMGV,331,339,Nucleoprotein,P04851.1,Nucleoprotein
+37957,Linear peptide,LLWSYAMGVGVELENSMGGL,331,350,Nucleoprotein,P04851.1,Nucleoprotein
+38042,Linear peptide,LMIDRPYVL,30,38,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+38171,Linear peptide,LNAMTQNIRPVQSVA,91,105,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+39061,Linear peptide,LRDPISAEISIQALS,221,235,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+39329,Linear peptide,LSEIKGVIVHRLEGV,288,302,fusion protein,AAL29688.1,Fusion glycoprotein F0
+39429,Linear peptide,LSIAYPTLSEIKGVI,281,295,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+39483,Linear peptide,LSLLDLYLGRGYNVS,203,217,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+39600,Linear peptide,LSQGNLIANCASILC,381,395,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+39732,Linear peptide,LSVDLSLTVELKIKI,413,427,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+39957,Linear peptide,LTIKFGIETMYPALG,271,285,Nucleoprotein,P04851.1,Nucleoprotein
+39958,Linear peptide,LTIKFGIETMYPALGLHEFA,271,290,Nucleoprotein,P04851.1,Nucleoprotein
+40025,Linear peptide,LTLQTPTGQIHWGNL,16,30,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+40319,Linear peptide,LVEKPNLSSKRSELS,233,247,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+40581,Linear peptide,LVSGSFGNRFILSQGNLI,373,390,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+40826,Linear peptide,LYKSNHNNVYWLTIP,443,457,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+40899,Linear peptide,LYPMSPLLQECLRGSTKSCARTLVS,348,372,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+41149,Linear peptide,MATLLRSLALFKRNKDKPPI,1,20,Nucleoprotein,P04851.1,Nucleoprotein
+41604,Linear peptide,MGLKVNVSAIFMAVL,1,15,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+41693,Linear peptide,MIDRPYVLLAVLFVM,31,45,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+41738,Linear peptide,MILAVQGVQDYINNE,171,185,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+42023,Linear peptide,MLNSQAIDNLRASLE,141,155,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+42187,Linear peptide,MNALVNSTLLETRTT,163,177,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+42413,Linear peptide,MQSWVPLSTDDPVID,333,347,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+42603,Linear peptide,MSLSLLDLYLGRGYN,201,215,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+43084,Linear peptide,MYRVFEVSVIRNPGL,251,265,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+43219,Linear peptide,NALYPMSPLLQECLR,346,360,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+43842,Linear peptide,NFGRSYFDPAYFRLGQEMVR,351,370,Nucleoprotein,P04851.1,Nucleoprotein
+44113,Linear peptide,NGVTIQVGSRRYPDA,426,440,Fusion glycoprotein F0,P69355.1,Fusion glycoprotein F0
+44239,Linear peptide,NIIAEDLSLRRFMVALILDI,221,240,Nucleoprotein,P04851.1,Nucleoprotein
+44374,Linear peptide,NITLLNNCTRVEIAE,61,75,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+44915,Linear peptide,NLVILPGQDLQYVLA,513,527,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+44949,Linear peptide,NLYQQMGKPAPYMVN,301,315,Nucleoprotein,P04851.1,Nucleoprotein
+45053,Linear peptide,NNCTRVEIAEYRRLL,66,80,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+45327,Linear peptide,NPDREYDFRD,126,135,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+45531,Linear peptide,NQDPDKILTYIAADH,405,419,fusion protein,AAF02706.1,Fusion glycoprotein F0
+45584,Linear peptide,NQLSCDLIGQKLGLK,191,205,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+46473,Linear peptide,NVSAIFMAVLLTLQT,6,20,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+46851,Linear peptide,PALICCCRGRCNKKG,511,525,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+47131,Linear peptide,PDKILTYIAADHC,408,420,fusion protein,AAF02706.1,Fusion glycoprotein F0
+47398,Linear peptide,PERIKLDYDQYCADV,143,157,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+47694,Linear peptide,PGLGAPVFHMTNYLE,263,277,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+47890,Linear peptide,PIELQVECFTWDQKL,563,577,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+47982,Linear peptide,PISLERLDVG,454,463,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+47983,Linear peptide,PISLERLDVGTNLGN,451,465,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+48187,Linear peptide,PKYVATQGYLISNFD,316,330,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+48370,Linear peptide,PLITHGSGMDLYKSN,433,447,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+48377,Linear peptide,PLKDNRIPSYGVLSV,401,415,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+48807,Linear peptide,PPISLERLDVGT,450,461,fusion protein,AAL29688.1,Fusion glycoprotein F0
+49637,Linear peptide,PTGQIHWGNLSKIGV,21,35,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+49646,Linear peptide,PTGTPLDIDTASE,468,480,Nucleoprotein,P04851.1,Nucleoprotein
+49707,Linear peptide,PTLSEIKGVIVHRLE,286,300,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+49795,Linear peptide,PTTRTDDKLR,368,377,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+49998,Linear peptide,PVVEVNGVTIQVGSR,421,435,fusion protein,AAL29688.1,Fusion glycoprotein F0
+50156,Linear peptide,PYQGSGKGVS,309,318,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+50222,Linear peptide,QACKGKIQALCEN,384,396,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+50272,Linear peptide,QAGQEMILAVQGVQD,166,180,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+50299,Linear peptide,QALCENPECVPLKDN,391,405,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+50500,Linear peptide,QDPDKILTYIAADHC,406,420,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+50957,Linear peptide,QGSGKGVSFQLVKLG,311,325,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+50979,Linear peptide,QGVQDYINNELIPSM,176,190,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+51459,Linear peptide,QLPEATFMV,211,219,M protein,ABK40528.1,Matrix protein
+51546,Linear peptide,QLSMYRVFEV,248,257,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+51709,Linear peptide,QNIRPVQSVASSRRH,96,110,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+51718,Linear peptide,QNKFSAGSYPLLWSYAMGVG,321,340,Nucleoprotein,P04851.1,Nucleoprotein
+51719,Linear peptide,QNKFSAGSYPLLWSYAMGVGVELEN,321,345,Nucleoprotein,P04851.1,Nucleoprotein
+52000,Linear peptide,QQACKGKIQALCENP,383,397,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+52143,Linear peptide,QQRRVVGEFRLERKW,201,215,Nucleoprotein,P04851.1,Nucleoprotein
+52420,Linear peptide,QSRGEAR,442,448,Nucleoprotein,P04851.1,Nucleoprotein
+52421,Linear peptide,QSRGEARESYRETGPSRA,442,459,Nucleoprotein,P04851.1,Nucleoprotein
+52704,Linear peptide,QVGSRRYPDAVYLHR,431,445,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+53046,Linear peptide,QYVLATYDTSRVEHA,523,537,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+53209,Linear peptide,RASLETTNQAIEAIR,151,165,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+53745,Linear peptide,RFMVALILDIKRTPGNKPRI,231,250,Nucleoprotein,P04851.1,Nucleoprotein
+54512,Linear peptide,RLDVGTNLGNAIAKL,456,470,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+54520,Linear peptide,RLERKWLDV,210,218,Nucleoprotein,P04851.1,Nucleoprotein
+54638,Linear peptide,RLLDRLVRL,50,58,nucleoprotein,ABI54110.1,Nucleoprotein
+54755,Linear peptide,RLSDNGYYTV,164,173,M protein,ABK40528.1,Matrix protein
+54949,Linear peptide,RMSKGVFKV,1520,1528,polymerase protein,ABY21184.1,RNA-directed RNA polymerase L
+55779,Linear peptide,RRYPDAVYL,435,443,fusion protein,ACA09725.1,Fusion glycoprotein F0
+55780,Linear peptide,RRYPDAVYLHRIDLG,435,449,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+55825,Linear peptide,RSELSQLS,243,250,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+55826,Linear peptide,RSELSQLSMYRVFEV,243,257,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+56209,Linear peptide,RTVLEPIRDALNAMT,81,95,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+56275,Linear peptide,RVEHAVVYYVYSPSR,533,547,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+56283,Linear peptide,RVFEVGVIRNPGLGA,253,267,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+56752,Linear peptide,SAEISIQALSYALGG,226,240,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+56759,Linear peptide,SAEPLLSCKPWQESR,491,505,Nucleoprotein,P04851.1,Nucleoprotein
+56799,Linear peptide,SAGKVSSTLASELG,372,385,Nucleoprotein,P04851.1,Nucleoprotein
+56800,Linear peptide,SAGKVSSTLASELGITAEDARLVS,372,395,Nucleoprotein,P04851.1,Nucleoprotein
+57147,Linear peptide,SCTVTREDGT,605,614,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+57536,Linear peptide,SELRRWIKYTQQRRV,191,205,Nucleoprotein,P04851.1,Nucleoprotein
+57541,Linear peptide,SELSQL,244,249,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+57542,Linear peptide,SELSQLS,244,250,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+58103,Linear peptide,SGKGVSFQLVKLGVW,313,327,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+58403,Linear peptide,SHRGVIADNQAKWAV,353,367,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+58485,Linear peptide,SIEHQVKDVLTPLFK,83,97,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+58850,Linear peptide,SKIGVVGIGSASYKV,31,45,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+59113,Linear peptide,SLFVESPGQLIQRITDDPDVS,78,98,nucleoprotein,ABI54110.1,Nucleoprotein
+59483,Linear peptide,SLSTNLDVTNSIEHQ,73,87,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+59484,Linear peptide,SLSTNLDVTNSIEHQVKDVLTPLFK,73,97,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+59583,Linear peptide,SLWGSGLLML,166,175,C protein,BAE98296.1,Protein C
+59693,Linear peptide,SMKGLSSTSIVYILI,486,500,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+59787,Linear peptide,SMYRVFEVGV,250,259,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+60752,Linear peptide,SRPGLKPDLTGTSKS,531,545,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+61412,Linear peptide,SSTSIVYILIAVCLG,491,505,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+62541,Linear peptide,SYFIVLSIAYPTLSE,276,290,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+63403,Linear peptide,TEILSLFGPSLRDPI,211,225,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+63713,Linear peptide,TFMPEGTVCSQNALY,335,349,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+63895,Linear peptide,TGMQSWVPLSTDDPV,331,345,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+63979,Linear peptide,TGTIINQDPDKILTY,400,414,fusion protein,AAF02706.1,Fusion glycoprotein F0
+64444,Linear peptide,TIRGQFSNMSLSLLD,193,207,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+64930,Linear peptide,TLLNNCTRV,66,74,Fusion glycoprotein F0 precursor,P26031.1,Fusion glycoprotein F0
+64992,Linear peptide,TLNVPPPPDPGR,209,220,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+64993,Linear peptide,TLNVPPPPDPGRASTSGTPIKK,209,230,Phosphoprotein (Protein P),P03422.1,Phosphoprotein
+65269,Linear peptide,TMTSQGMYGGTYPVE,221,235,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+65486,Linear peptide,TNYLEQPVSNDLSNC,273,287,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+65487,Linear peptide,TNYLEQPVSNDLSNCMVALGELKLAAL,273,299,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+65579,Linear peptide,TPGNKPRIA,243,251,Nucleoprotein,P10050.1,Nucleoprotein
+65635,Linear peptide,TPLFKIIGDEVGLRT,93,107,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+65653,Linear peptide,TPLQCTM,513,519,Nucleoprotein,P04851.1,Nucleoprotein
+65865,Linear peptide,TQGYLISNFDESSCT,321,335,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+66233,Linear peptide,TSGSGGAIRGIKHIIIVPIP,21,40,Nucleoprotein,P04851.1,Nucleoprotein
+66385,Linear peptide,TSQGMYGGTYLVEKP,223,237,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+66410,Linear peptide,TSRVEHAVVYYVYSP,531,545,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+66740,Linear peptide,TTNQAIEAIRQAGQE,156,170,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+66957,Linear peptide,TVCSQNALYPMSPLL,341,355,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+68212,Linear peptide,VEIAEYRRLLRTVLE,71,85,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+68272,Linear peptide,VELKIKIASGFGPLI,421,435,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+68350,Linear peptide,VESPGQLI,81,88,nucleoprotein,ABI54110.1,Nucleoprotein
+68351,Linear peptide,VESPGQLIQRITDDP,81,95,Nucleoprotein,P04851.1,Nucleoprotein
+68684,Linear peptide,VGIGSASYKVMTRSS,36,50,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+68723,Linear peptide,VGLRTPQRFTDLVKF,103,117,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+68883,Linear peptide,VHRLEGVSYNIGSQE,296,310,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+69303,Linear peptide,VKQSRGEA,440,447,Nucleoprotein,P04851.1,Nucleoprotein
+69495,Linear peptide,VLFVMFLSLI,41,50,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+69496,Linear peptide,VLFVMFLSLIGLLAI,41,55,Hemagglutinin glycoprotein,P06830.1,Hemagglutinin glycoprotein
+70025,Linear peptide,VMTRSSHQSLVIKLM,45,59,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+70648,Linear peptide,VQSVASSRRHKRFAG,101,115,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+71009,Linear peptide,VSKGNCSGPTTIRGQ,183,197,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+71730,Linear peptide,VVLAGAALGVATAAQ,116,130,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+72052,Linear peptide,VYILIAVCLGGLIGI,496,510,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+72078,Linear peptide,VYLHRIDLGPPISLE,441,455,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+72324,Linear peptide,WDQKLWCRHFCVLAD,573,587,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+72808,Linear peptide,WLTIPPMKNLALGVI,453,467,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+73298,Linear peptide,WYTTVPKYVATQGYL,311,325,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+73388,Linear peptide,YALGGDINKVLEKLG,236,250,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+73397,Linear peptide,YAMGVGVELE,335,344,Nucleoprotein,P04851.1,Nucleoprotein
+73398,Linear peptide,YAMGVGVELEN,335,345,nucleoprotein,ABI54110.1,Nucleoprotein
+73483,Linear peptide,YCADVAAEELMNALV,153,167,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+74322,Linear peptide,YINNELIPSMNQLSC,181,195,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+74691,Linear peptide,YLHDPEFNL,522,530,L protein,ABK40531.1,RNA-directed RNA polymerase L
+74847,Linear peptide,YLNMSRLFV,942,950,L protein,ABK40531.1,RNA-directed RNA polymerase L
+75252,Linear peptide,YPALGLHEF,281,289,Nucleoprotein,P10050.1,Nucleoprotein
+75253,Linear peptide,YPALGLHEFA,281,290,nucleoprotein,ABI54110.1,Nucleoprotein
+75254,Linear peptide,YPALGLHEFAGELST,281,295,Nucleoprotein,P04851.1,Nucleoprotein
+75287,Linear peptide,YPFRLPIKGVPIELQ,553,567,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+75362,Linear peptide,YPLLWSYAM,329,337,Nucleoprotein,P10050.1,Nucleoprotein
+75598,Linear peptide,YRETGPSRASDARAAHLPTG,451,470,Nucleoprotein,P04851.1,Nucleoprotein
+75670,Linear peptide,YRRLLRTVLEPIRDA,76,90,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+75740,Linear peptide,YSGGDLLGILESRGI,251,265,Fusion glycoprotein F0 precursor,P69353.1,Fusion glycoprotein F0
+75863,Linear peptide,YSPSRSFSYFYPFRL,543,557,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+76348,Linear peptide,YVLLAVLFV,36,44,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+77778,Linear peptide,GDLLGILESRGIKAR,254,268,fusion protein,AAF02706.1,Fusion glycoprotein F0
+77804,Linear peptide,TVPKYVATQGYLISN,314,328,fusion protein,AAL29688.1,Fusion glycoprotein F0
+83099,Linear peptide,HKSLSTNLDVTNSIEHQ,71,87,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+85284,Linear peptide,LIGLLAIAGIRLHRAAIYTAEI,49,70,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+87222,Linear peptide,PDTAADSELRRWIKY,185,199,nucleoprotein,ABI54110.1,Nucleoprotein
+94506,Linear peptide,ETCFQQACKGKIQALCENPEWA,379,400,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+94887,Linear peptide,NDRNLLD,519,525,Nucleoprotein,P10050.1,Nucleoprotein
+94894,Linear peptide,NMEDEADQYFSHDDPISSDQSRFGWFENK,122,150,Nucleoprotein,P04851.1,Nucleoprotein
+94929,Linear peptide,SRASDARAAHLPTGTPLDID,457,476,Nucleoprotein,P04851.1,Nucleoprotein
+95088,Linear peptide,GPKLTGALIGILSLFVESPGQLIQRITDDPDV,66,97,Nucleoprotein,P10050.1,Nucleoprotein
+98702,Linear peptide,AQTRTPLQCTMTEIF,509,523,Nucleoprotein,P04851.1,Nucleoprotein
+98705,Linear peptide,ASRGTNMEDEADQYFSHDD,117,135,Nucleoprotein,P04851.1,Nucleoprotein
+98761,Linear peptide,EMVRRSAGKVSSTLASELGI,367,386,Nucleoprotein,P04851.1,Nucleoprotein
+98800,Linear peptide,GGKEDRRVKQSRGEARESYR,433,452,Nucleoprotein,P04851.1,Nucleoprotein
+98810,Linear peptide,HDDPISSDQSRFGWFENKEI,133,152,Nucleoprotein,P04851.1,Nucleoprotein
+98811,Linear peptide,HEFAGELSTLESLMNLY,287,303,Nucleoprotein,P04851.1,Nucleoprotein
+98816,Linear peptide,HTTEDKISRAVGPRQAQVSFL,400,420,Nucleoprotein,P04851.1,Nucleoprotein
+98819,Linear peptide,ICDIDTYIVEAGLASFILTI,254,273,Nucleoprotein,P04851.1,Nucleoprotein
+98826,Linear peptide,IIIVPIPGDSSITTRSRLLD,34,53,Nucleoprotein,P04851.1,Nucleoprotein
+98829,Linear peptide,ILDIKRTPGNKPRIAEMICD,237,256,Nucleoprotein,P04851.1,Nucleoprotein
+98853,Linear peptide,KPPITSGSGGAIRGIKHIII,17,36,Nucleoprotein,P04851.1,Nucleoprotein
+98874,Linear peptide,LGITAEDARLVSEIAMHTTE,384,403,Nucleoprotein,P04851.1,Nucleoprotein
+98876,Linear peptide,LGTILAQIWVLLAKAVTA,167,184,Nucleoprotein,P04851.1,Nucleoprotein
+98886,Linear peptide,LPTGTPLDIDTASESSQD,467,484,Nucleoprotein,P04851.1,Nucleoprotein
+98900,Linear peptide,MATLLRSLALFKRNKDK,1,17,Nucleoprotein,P04851.1,Nucleoprotein
+98925,Linear peptide,PDTAADSELRRWIKYTQQRR,185,204,Nucleoprotein,P04851.1,Nucleoprotein
+98935,Linear peptide,PKLTGALIGILSLFVESPGQ,67,86,Nucleoprotein,P04851.1,Nucleoprotein
+98951,Linear peptide,QDPQDSRRSAEPLLSCKPWQ,483,502,Nucleoprotein,P04851.1,Nucleoprotein
+98970,Linear peptide,QRRVVGEFRLERKWLDVVR,202,220,Nucleoprotein,P04851.1,Nucleoprotein
+99001,Linear peptide,SIQNKFSAGSYPLLWSYAMG,319,338,Nucleoprotein,P04851.1,Nucleoprotein
+99011,Linear peptide,SPGQLIQRITDDPDVSIRLL,83,102,Nucleoprotein,P04851.1,Nucleoprotein
+99050,Linear peptide,VSFLQGDQSENELPRLGGKE,417,436,Nucleoprotein,P04851.1,Nucleoprotein
+99056,Linear peptide,WQESRKNKAQTRTPLQC,501,517,Nucleoprotein,P04851.1,Nucleoprotein
+99062,Linear peptide,YAMGVGVELENSMGGLNFGR,335,354,Nucleoprotein,P04851.1,Nucleoprotein
+99071,Linear peptide,YQQMGKPAPYMVNLENSI,303,320,Nucleoprotein,P04851.1,Nucleoprotein
+118791,Linear peptide,ETCFQQACKGKIQALCENPEWAPLKDNRIPSY,379,410,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+122073,Linear peptide,AEEQARHVKNGLE,2,14,phosphoprotein,ABO69699.1,Phosphoprotein
+122090,Linear peptide,ESPQEISKHQALG,,,Protein C,SRC280080,Protein C
+122108,Linear peptide,GVGVELENSMGGLNF,338,352,nucleoprotein,ABI54110.1,Nucleoprotein
+122115,Linear peptide,IKGANDLAKFHQMLMKIIMK,488,507,phosphoprotein,ABO69699.1,Phosphoprotein
+122150,Linear peptide,MSKTLHAQLGFKKT,266,279,M protein,ABK40528.1,Matrix protein
+122153,Linear peptide,NASGLSRPSPSAH,7,19,C protein,BAE98296.1,Protein C
+122210,Linear peptide,VRVIDPSLGDRKDE,,,Matrix protein,SRC280148,Matrix protein
+127060,Linear peptide,SFSYFYPFR,548,556,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+133666,Linear peptide,QDSRRSADALLRLQAMAGISEEQGSDTDTPIVYNDRN,112,148,nucleocapsid,CAA59302.1,Nucleoprotein
+133687,Linear peptide,SAEALLRLQA,491,500,nucleoprotein,BAH22350.1,Nucleoprotein
+149225,Discontinuous peptide,F552,,,hemagglutinin protein,BAB39835.1,Hemagglutinin glycoprotein
+149226,Discontinuous peptide,G491,,,hemagglutinin protein,BAB39835.1,Hemagglutinin glycoprotein
+149227,Discontinuous peptide,S189,,,hemagglutinin protein,BAB39835.1,Hemagglutinin glycoprotein
+149228,Discontinuous peptide,"S313, G314",,,hemagglutinin protein,BAB39835.1,Hemagglutinin glycoprotein
+149229,Discontinuous peptide,"G211, G388, S532",,,hemagglutinin,BAJ23068.1,Hemagglutinin glycoprotein
+164363,Linear peptide,RIVINREHL,22,30,hemagglutinin protein,BAB39835.1,Hemagglutinin glycoprotein
+178253,Linear peptide,IPRFK,473,477,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+178373,Discontinuous peptide,G302,,,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+178374,Discontinuous peptide,Q311,,,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+178375,Discontinuous peptide,Q391,,,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+179743,Discontinuous peptide,"E395, E398",,,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+179744,Discontinuous peptide,Y310,,,Hemagglutinin glycoprotein,P08362.1,Hemagglutinin glycoprotein
+180354,Discontinuous peptide,"F483, D505, R533, Y543",,,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+427467,Linear peptide,SSRASDERAAHLPTS,456,470,nucleocapsid protein,BAA33867.1,Nucleoprotein
+461926,Linear peptide,AEGGEIHEL,185,193,phosphoprotein,AAF85692.1,Phosphoprotein
+461928,Linear peptide,AENLISNGIGKY,560,571,large protein,AAF85698.1,RNA-directed RNA polymerase L
+461930,Linear peptide,AEVDGDVKL,502,510,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+461935,Linear peptide,AIYTAEIHK,64,72,hemagglutinin,AAF85697.1,Hemagglutinin glycoprotein
+461944,Linear peptide,APVFHMTNY,267,275,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+461945,Linear peptide,APVFHMTNYLEQPVSN,267,282,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+461946,Linear peptide,AQRLNEIY,680,687,large protein,AAF85698.1,RNA-directed RNA polymerase L
+461949,Linear peptide,ARVPHAYSL,32,40,large protein,AAF85698.1,RNA-directed RNA polymerase L
+461955,Linear peptide,AVRDLERAM,72,80,Protein C,P03424.1,Protein C
+461956,Linear peptide,AVRDLERAMTTLK,72,84,Protein C,P03424.1,Protein C
+461960,Linear peptide,DALLRLQAM,493,501,Nucleoprotein,Q89933.1,Nucleoprotein
+461965,Linear peptide,DIKEKVINL,144,152,large protein,AAF85698.1,RNA-directed RNA polymerase L
+461967,Linear peptide,DQGLFKVL,328,335,matrix protein,AAF85695.1,Matrix protein
+461972,Linear peptide,DTGVDTRIW,282,290,Non-structural protein V,Q9EMA9.1,Non-structural protein V
+461986,Linear peptide,EPIGSLAIEEAM,22,33,phosphoprotein,AAF85692.1,Phosphoprotein
+461987,Linear peptide,EPIRDALNAM,85,94,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462005,Linear peptide,FPKLGKTL,203,210,phosphoprotein,AAF85692.1,Phosphoprotein
+462008,Linear peptide,FRSVNAVAF,180,188,matrix protein,AAF85695.1,Matrix protein
+462019,Linear peptide,GKIIDNTEQL,203,212,matrix protein,AAF85695.1,Matrix protein
+462025,Linear peptide,GLNEKLVFY,106,114,matrix protein,AAF85695.1,Matrix protein
+462028,Linear peptide,GMYGGTYLVEK,226,236,haemagglutinin protein,AAC35876.2,Hemagglutinin glycoprotein
+462029,Linear peptide,GPPISLERLDVGTN,449,462,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462030,Linear peptide,GPRQAQVSFL,411,420,Nucleoprotein,Q89933.1,Nucleoprotein
+462034,Linear peptide,GRLVPQVRVID,29,39,matrix protein,AAF85695.1,Matrix protein
+462036,Linear peptide,GSAPISMGFR,169,178,phosphoprotein,AAF85692.1,Phosphoprotein
+462044,Linear peptide,HILAKSTAL,1434,1442,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462047,Linear peptide,HYREVNLVY,1936,1944,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462059,Linear peptide,IPPMKNLAL,456,464,haemagglutinin protein,AAC35876.2,Hemagglutinin glycoprotein
+462060,Linear peptide,IPYQGSGKGVSF,308,319,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+462061,Linear peptide,ISKESQHVY,213,221,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462065,Linear peptide,IVSSHFFVY,824,832,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462067,Linear peptide,KEIKETGRLF,537,546,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462068,Linear peptide,KESQHVYYL,215,223,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462071,Linear peptide,KIIDNTEQL,204,212,matrix protein,AAF85695.1,Matrix protein
+462074,Linear peptide,KKQINRQN,350,357,P protein,AAA63285.1,Phosphoprotein
+462075,Linear peptide,KKVDTNFIYQ,1325,1334,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462076,Linear peptide,KLIDGFFPA,263,271,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462084,Linear peptide,KPNLSSKRSEL,236,246,hemagglutinin protein,BAB39848.1,Hemagglutinin glycoprotein
+462093,Linear peptide,KVSPYLFTV,477,485,hemagglutinin,AAR89413.1,Hemagglutinin glycoprotein
+462100,Linear peptide,LETRTTNQFL,172,181,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+462108,Linear peptide,LLKEATEL,90,97,matrix protein,AAF85695.1,Matrix protein
+462109,Linear peptide,LLKKGNSLY,109,117,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462112,Linear peptide,LPAPIGGMNY,933,942,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462129,Linear peptide,MPEETLHQVM,973,982,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462160,Linear peptide,PTTIRGQFS,191,199,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+462162,Linear peptide,QEISRHQALGY,90,100,Protein C,P03424.1,Protein C
+462178,Linear peptide,RITHVDTESY,268,277,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462183,Linear peptide,RPGLKPDL,532,539,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462184,Linear peptide,RPIYGLEV,1152,1159,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462185,Linear peptide,RQAGQEMILAV,165,175,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462191,Linear peptide,SAVRIATVY,1237,1245,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462203,Linear peptide,SLMPEETLHQV,971,981,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462205,Linear peptide,SMIDLVTKF,1443,1451,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462206,Linear peptide,SMLNSQAIDNLRA,140,152,Fusion glycoprotein F0,P69354.1,Fusion glycoprotein F0
+462207,Linear peptide,SMYRVFEV,250,257,hemagglutinin protein,CAB43772.1,Hemagglutinin glycoprotein
+462210,Linear peptide,SQQGMFHAY,2076,2084,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462218,Linear peptide,TDTPIVYNDRNLLD,512,525,Nucleoprotein,Q89933.1,Nucleoprotein
+462234,Linear peptide,VIINDDQGLFKV,323,334,matrix protein,AAF85695.1,Matrix protein
+462248,Linear peptide,YESGVRIASL,760,769,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462252,Linear peptide,YLKDKALA,463,470,large protein,AAF85698.1,RNA-directed RNA polymerase L
+462263,Linear peptide,YVYDHSGEAVK,111,121,phosphoprotein,AAF85692.1,Phosphoprotein
+653326,Discontinuous peptide,"N396, K403, N405",,,hemagglutinin,BAJ23068.1,Hemagglutinin glycoprotein
+653328,Discontinuous peptide,K492,,,hemagglutinin,AAS94102.1,Hemagglutinin glycoprotein
+653329,Discontinuous peptide,R533,,,hemagglutinin,AAL02019.1,Hemagglutinin glycoprotein
