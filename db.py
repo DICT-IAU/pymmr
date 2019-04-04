@@ -20,7 +20,11 @@ db_session = scoped_session(sessionmaker(autocommit=True,
 Base.prepare(engine, reflect=True)
 
 # mapped classes are now created with names by default
+print([i for i in Base.classes])
 Virus = Base.classes.virus
+RubellaEp = Base.classes.rubella_epitopes
+MumpsEp = Base.classes.mumps_epitopes
+MeaslesEp = Base.classes.measles_epitopes
 
 Base.query = db_session.query_property()
 

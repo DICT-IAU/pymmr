@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from db import Virus, row2dict, result2dict
+from db import Virus, MeaslesEp, MumpsEp, RubellaEp, row2dict, result2dict
 from sqlalchemy import and_, or_, func
 from typing import List
 from starlette.middleware.cors import CORSMiddleware
@@ -106,6 +106,20 @@ def read_virus(accession_number: str):
         Virus.genbank_protein_accession == accession_number)).all()
     return result2dict(result)
 
+
+@app.get("/epitopes/{specimen}")
+def read_epitopes(specimen: str):
+    EpTable = None
+
+    if specimen == "mumps":
+        EpTable = MumpsEp
+    elif specimen == "rubella":
+        EpTable = RubellaEp
+    else:
+        EpTable = MeaslesEp
+
+    result = EpTable.query.all()
+    return result2dict(result) 
 
 @app.post("/viruses/search/by_criteria/{sequence_type}/{virus_specimen}")
 def read_virus_by_criteria(virus_specimen: str, sequence_type: str, gene_symbol: List[str] = None, host: List[str] = None, 

@@ -54,4 +54,7 @@ with database_connection.connect() as con:
     con.execute('ALTER TABLE `virus` ADD INDEX (`collection_date`);')
     con.execute('ALTER TABLE `virus` ADD INDEX (`host`);')
     con.execute('ALTER TABLE `virus` ADD INDEX (`country`);')
+    con.execute('ALTER TABLE `measles_epitopes` ADD PRIMARY KEY (`id`);')
+    con.execute('ALTER TABLE `mumps_epitopes` ADD PRIMARY KEY (`id`);')
+    con.execute('ALTER TABLE `rubella_epitopes` ADD PRIMARY KEY (`id`);')
 
